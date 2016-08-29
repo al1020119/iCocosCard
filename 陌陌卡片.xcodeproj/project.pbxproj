@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710437151D741C7F0014A039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710437141D741C7F0014A039 /* main.m */; };
+		710437181D741C7F0014A039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710437171D741C7F0014A039 /* AppDelegate.m */; };
+		7104371E1D741C7F0014A039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7104371C1D741C7F0014A039 /* Main.storyboard */; };
+		710437201D741C7F0014A039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7104371F1D741C7F0014A039 /* Assets.xcassets */; };
+		710437231D741C7F0014A039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710437211D741C7F0014A039 /* LaunchScreen.storyboard */; };
+		7104372C1D741C9C0014A039 /* iCocosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104372B1D741C9C0014A039 /* iCocosViewController.m */; };
+		710437541D741D6C0014A039 /* iCocosCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710437531D741D6C0014A039 /* iCocosCardViewController.m */; };
+		7104376E1D7433160014A039 /* CCDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 710437591D7433160014A039 /* CCDraggableCardView.m */; };
+		7104376F1D7433160014A039 /* CCDraggableContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104375C1D7433160014A039 /* CCDraggableContainer.m */; };
+		710437701D7433160014A039 /* CustomCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104375E1D7433160014A039 /* CustomCardView.m */; };
+		710437711D7433160014A039 /* image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437601D7433160014A039 /* image_1.jpg */; };
+		710437721D7433160014A039 /* image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437611D7433160014A039 /* image_2.jpg */; };
+		710437731D7433160014A039 /* image_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437621D7433160014A039 /* image_3.jpg */; };
+		710437741D7433160014A039 /* image_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437631D7433160014A039 /* image_4.jpg */; };
+		710437751D7433160014A039 /* image_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437641D7433160014A039 /* image_5.jpg */; };
+		710437761D7433160014A039 /* image_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437651D7433160014A039 /* image_6.jpg */; };
+		710437771D7433160014A039 /* image_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437661D7433160014A039 /* image_7.jpg */; };
+		710437781D7433160014A039 /* image_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437671D7433160014A039 /* image_8.jpg */; };
+		710437791D7433160014A039 /* image_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 710437681D7433160014A039 /* image_9.jpg */; };
+		7104377A1D7433160014A039 /* liked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 710437691D7433160014A039 /* liked@2x.png */; };
+		7104377B1D7433160014A039 /* nope@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7104376A1D7433160014A039 /* nope@2x.png */; };
+		7104377C1D7433160014A039 /* userInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7104376B1D7433160014A039 /* userInfo.png */; };
+		7104377D1D7433160014A039 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104376D1D7433160014A039 /* ViewController.m */; };
+		8DEC042840A80AD631E26485 /* libPods-陌陌卡片.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF88560DD1367A1584DECEA /* libPods-陌陌卡片.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BF88560DD1367A1584DECEA /* libPods-陌陌卡片.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-陌陌卡片.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710437101D741C7F0014A039 /* 陌陌卡片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "陌陌卡片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710437141D741C7F0014A039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		710437161D741C7F0014A039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		710437171D741C7F0014A039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7104371D1D741C7F0014A039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7104371F1D741C7F0014A039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710437221D741C7F0014A039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710437241D741C7F0014A039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7104372A1D741C9C0014A039 /* iCocosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosViewController.h; sourceTree = "<group>"; };
+		7104372B1D741C9C0014A039 /* iCocosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosViewController.m; sourceTree = "<group>"; };
+		710437521D741D6C0014A039 /* iCocosCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosCardViewController.h; sourceTree = "<group>"; };
+		710437531D741D6C0014A039 /* iCocosCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosCardViewController.m; sourceTree = "<group>"; };
+		710437581D7433160014A039 /* CCDraggableCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableCardView.h; sourceTree = "<group>"; };
+		710437591D7433160014A039 /* CCDraggableCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDraggableCardView.m; sourceTree = "<group>"; };
+		7104375A1D7433160014A039 /* CCDraggableConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableConfig.h; sourceTree = "<group>"; };
+		7104375B1D7433160014A039 /* CCDraggableContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableContainer.h; sourceTree = "<group>"; };
+		7104375C1D7433160014A039 /* CCDraggableContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDraggableContainer.m; sourceTree = "<group>"; };
+		7104375D1D7433160014A039 /* CustomCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCardView.h; sourceTree = "<group>"; };
+		7104375E1D7433160014A039 /* CustomCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCardView.m; sourceTree = "<group>"; };
+		710437601D7433160014A039 /* image_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_1.jpg; sourceTree = "<group>"; };
+		710437611D7433160014A039 /* image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_2.jpg; sourceTree = "<group>"; };
+		710437621D7433160014A039 /* image_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_3.jpg; sourceTree = "<group>"; };
+		710437631D7433160014A039 /* image_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_4.jpg; sourceTree = "<group>"; };
+		710437641D7433160014A039 /* image_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_5.jpg; sourceTree = "<group>"; };
+		710437651D7433160014A039 /* image_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_6.jpg; sourceTree = "<group>"; };
+		710437661D7433160014A039 /* image_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_7.jpg; sourceTree = "<group>"; };
+		710437671D7433160014A039 /* image_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_8.jpg; sourceTree = "<group>"; };
+		710437681D7433160014A039 /* image_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_9.jpg; sourceTree = "<group>"; };
+		710437691D7433160014A039 /* liked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liked@2x.png"; sourceTree = "<group>"; };
+		7104376A1D7433160014A039 /* nope@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nope@2x.png"; sourceTree = "<group>"; };
+		7104376B1D7433160014A039 /* userInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userInfo.png; sourceTree = "<group>"; };
+		7104376C1D7433160014A039 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7104376D1D7433160014A039 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78E5415FD65AE9ED3C51D1B9 /* Pods-陌陌卡片.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-陌陌卡片.debug.xcconfig"; path = "Pods/Target Support Files/Pods-陌陌卡片/Pods-陌陌卡片.debug.xcconfig"; sourceTree = "<group>"; };
+		E24CBB23B2E9CD62C259C58F /* Pods-陌陌卡片.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-陌陌卡片.release.xcconfig"; path = "Pods/Target Support Files/Pods-陌陌卡片/Pods-陌陌卡片.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7104370D1D741C7F0014A039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEC042840A80AD631E26485 /* libPods-陌陌卡片.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710437071D741C7F0014A039 = {
+			isa = PBXGroup;
+			children = (
+				710437121D741C7F0014A039 /* 陌陌卡片 */,
+				710437111D741C7F0014A039 /* Products */,
+				8C1BDD63B150AD3F765720E1 /* Pods */,
+				9CFD9D09FAAC8F95288AD1E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		710437111D741C7F0014A039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710437101D741C7F0014A039 /* 陌陌卡片.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710437121D741C7F0014A039 /* 陌陌卡片 */ = {
+			isa = PBXGroup;
+			children = (
+				7104372D1D741D100014A039 /* iCocosCard */,
+				710437161D741C7F0014A039 /* AppDelegate.h */,
+				710437171D741C7F0014A039 /* AppDelegate.m */,
+				7104372A1D741C9C0014A039 /* iCocosViewController.h */,
+				7104372B1D741C9C0014A039 /* iCocosViewController.m */,
+				7104371C1D741C7F0014A039 /* Main.storyboard */,
+				7104371F1D741C7F0014A039 /* Assets.xcassets */,
+				710437211D741C7F0014A039 /* LaunchScreen.storyboard */,
+				710437241D741C7F0014A039 /* Info.plist */,
+				710437131D741C7F0014A039 /* Supporting Files */,
+			);
+			path = "陌陌卡片";
+			sourceTree = "<group>";
+		};
+		710437131D741C7F0014A039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				710437141D741C7F0014A039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7104372D1D741D100014A039 /* iCocosCard */ = {
+			isa = PBXGroup;
+			children = (
+				710437521D741D6C0014A039 /* iCocosCardViewController.h */,
+				710437531D741D6C0014A039 /* iCocosCardViewController.m */,
+				710437571D7433160014A039 /* CCDraggableCard */,
+				7104375D1D7433160014A039 /* CustomCardView.h */,
+				7104375E1D7433160014A039 /* CustomCardView.m */,
+				7104375F1D7433160014A039 /* Resources */,
+				7104376C1D7433160014A039 /* ViewController.h */,
+				7104376D1D7433160014A039 /* ViewController.m */,
+			);
+			name = iCocosCard;
+			path = iCocoaCard;
+			sourceTree = "<group>";
+		};
+		710437571D7433160014A039 /* CCDraggableCard */ = {
+			isa = PBXGroup;
+			children = (
+				710437581D7433160014A039 /* CCDraggableCardView.h */,
+				710437591D7433160014A039 /* CCDraggableCardView.m */,
+				7104375A1D7433160014A039 /* CCDraggableConfig.h */,
+				7104375B1D7433160014A039 /* CCDraggableContainer.h */,
+				7104375C1D7433160014A039 /* CCDraggableContainer.m */,
+			);
+			path = CCDraggableCard;
+			sourceTree = "<group>";
+		};
+		7104375F1D7433160014A039 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				710437601D7433160014A039 /* image_1.jpg */,
+				710437611D7433160014A039 /* image_2.jpg */,
+				710437621D7433160014A039 /* image_3.jpg */,
+				710437631D7433160014A039 /* image_4.jpg */,
+				710437641D7433160014A039 /* image_5.jpg */,
+				710437651D7433160014A039 /* image_6.jpg */,
+				710437661D7433160014A039 /* image_7.jpg */,
+				710437671D7433160014A039 /* image_8.jpg */,
+				710437681D7433160014A039 /* image_9.jpg */,
+				710437691D7433160014A039 /* liked@2x.png */,
+				7104376A1D7433160014A039 /* nope@2x.png */,
+				7104376B1D7433160014A039 /* userInfo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C1BDD63B150AD3F765720E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E5415FD65AE9ED3C51D1B9 /* Pods-陌陌卡片.debug.xcconfig */,
+				E24CBB23B2E9CD62C259C58F /* Pods-陌陌卡片.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CFD9D09FAAC8F95288AD1E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF88560DD1367A1584DECEA /* libPods-陌陌卡片.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7104370F1D741C7F0014A039 /* 陌陌卡片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710437271D741C7F0014A039 /* Build configuration list for PBXNativeTarget "陌陌卡片" */;
+			buildPhases = (
+				0ABE163DEB2BAF2C5C283258 /* [CP] Check Pods Manifest.lock */,
+				7104370C1D741C7F0014A039 /* Sources */,
+				7104370D1D741C7F0014A039 /* Frameworks */,
+				7104370E1D741C7F0014A039 /* Resources */,
+				C7A9A2174CB691190630113E /* [CP] Embed Pods Frameworks */,
+				B536DFF5D05AA967BA69CCC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "陌陌卡片";
+			productName = "陌陌卡片";
+			productReference = 710437101D741C7F0014A039 /* 陌陌卡片.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710437081D741C7F0014A039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = iCocos;
+				TargetAttributes = {
+					7104370F1D741C7F0014A039 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7104370B1D741C7F0014A039 /* Build configuration list for PBXProject "陌陌卡片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710437071D741C7F0014A039;
+			productRefGroup = 710437111D741C7F0014A039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7104370F1D741C7F0014A039 /* 陌陌卡片 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7104370E1D741C7F0014A039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710437231D741C7F0014A039 /* LaunchScreen.storyboard in Resources */,
+				710437751D7433160014A039 /* image_5.jpg in Resources */,
+				710437741D7433160014A039 /* image_4.jpg in Resources */,
+				710437711D7433160014A039 /* image_1.jpg in Resources */,
+				710437201D741C7F0014A039 /* Assets.xcassets in Resources */,
+				710437791D7433160014A039 /* image_9.jpg in Resources */,
+				7104377A1D7433160014A039 /* liked@2x.png in Resources */,
+				710437761D7433160014A039 /* image_6.jpg in Resources */,
+				7104371E1D741C7F0014A039 /* Main.storyboard in Resources */,
+				7104377C1D7433160014A039 /* userInfo.png in Resources */,
+				710437721D7433160014A039 /* image_2.jpg in Resources */,
+				710437731D7433160014A039 /* image_3.jpg in Resources */,
+				710437771D7433160014A039 /* image_7.jpg in Resources */,
+				7104377B1D7433160014A039 /* nope@2x.png in Resources */,
+				710437781D7433160014A039 /* image_8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ABE163DEB2BAF2C5C283258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B536DFF5D05AA967BA69CCC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-陌陌卡片/Pods-陌陌卡片-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A9A2174CB691190630113E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-陌陌卡片/Pods-陌陌卡片-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7104370C1D741C7F0014A039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710437541D741D6C0014A039 /* iCocosCardViewController.m in Sources */,
+				7104372C1D741C9C0014A039 /* iCocosViewController.m in Sources */,
+				7104377D1D7433160014A039 /* ViewController.m in Sources */,
+				710437181D741C7F0014A039 /* AppDelegate.m in Sources */,
+				7104376F1D7433160014A039 /* CCDraggableContainer.m in Sources */,
+				7104376E1D7433160014A039 /* CCDraggableCardView.m in Sources */,
+				710437701D7433160014A039 /* CustomCardView.m in Sources */,
+				710437151D741C7F0014A039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7104371C1D741C7F0014A039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7104371D1D741C7F0014A039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710437211D741C7F0014A039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710437221D741C7F0014A039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710437251D741C7F0014A039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		710437261D741C7F0014A039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710437281D741C7F0014A039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E5415FD65AE9ED3C51D1B9 /* Pods-陌陌卡片.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "陌陌卡片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCocos.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		710437291D741C7F0014A039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24CBB23B2E9CD62C259C58F /* Pods-陌陌卡片.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "陌陌卡片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCocos.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7104370B1D741C7F0014A039 /* Build configuration list for PBXProject "陌陌卡片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710437251D741C7F0014A039 /* Debug */,
+				710437261D741C7F0014A039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710437271D741C7F0014A039 /* Build configuration list for PBXNativeTarget "陌陌卡片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710437281D741C7F0014A039 /* Debug */,
+				710437291D741C7F0014A039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710437081D741C7F0014A039 /* Project object */;
+}
