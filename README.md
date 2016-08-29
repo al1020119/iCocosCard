@@ -13,11 +13,8 @@
 	github：https://github.com/al1020119
 
 
+![image](https://github.com/al1020119/iCocosCard/blob/master/iCocosCard.png)
 
-![image](https://github.com/al1020119/iCocosCard/raw/master/screenshot.gif)
-
-
-{% img /images/iCocosCard.png Caption %} 
 
 防陌陌等爱爱软件卡片效果
 
@@ -49,6 +46,13 @@
 	}
 	
 	@end
+
+效果：
+
+
+![image](https://github.com/al1020119/iCocosCard/blob/master/screenshot.gif)
+
+
 
 ####简单实现，以后修改代码或者数据相关处理都在这里面做，除非您有特定的需求
 
