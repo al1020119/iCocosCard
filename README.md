@@ -1,21 +1,5 @@
 # iCocosCard
 
-
-
-    Q Q：2211523682/790806573
-
-    微信：18370997821/13148454507
-    
-    微博WB:http://weibo.com/u/3288975567?is_hot=1
-    
-	git博文：http://al1020119.github.io/
-	
-	github：https://github.com/al1020119
-
-
-![image](https://github.com/al1020119/iCocosCard/blob/master/iCocosCard.png)
-
-
 防陌陌等爱爱软件卡片效果
 
 不用谢代码就能见到集成，直接拖入文件，引入头文件，让后实现跳转，具体内部数据的获取与实现根据需求就可以。
